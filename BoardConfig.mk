@@ -62,7 +62,7 @@ BOARD_KERNEL_PAGESIZE := 4096
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true
-TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
@@ -163,7 +163,7 @@ TW_USE_NEW_MINADBD := true
 TW_MAX_BRIGHTNESS := 200
 TW_LOAD_VENDOR_MODULES := true
 TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/lib/modules)\")
-TW_DEVICE_VERSION := MrFluffyOven_14_S7
+TW_DEVICE_VERSION := MrFluffyOven_14_U7
 
 # Logging
 TARGET_USES_LOGD := true
