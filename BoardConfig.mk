@@ -15,3 +15,6 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 
 # Inherit from common tree
 include device/samsung/a05s-common/BoardConfigCommon.mk
+
+# Version
+TW_DEVICE_VERSION := MrFluffyOven_A057F
