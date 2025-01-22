@@ -7,8 +7,10 @@
     repo init --depth=1 -u https://github.com/MrFluffyOven/platform_manifest_twrp_aosp.git -b twrp-14
 ## Sync
     repo sync
-## Clone galaxy a05s TWRP tree
-    git clone https://github.com/galaxy-a05s/android_device_samsung_a05s.git -b twrp-14-u7 device/samsung/a05s
+## Clone galaxy A057F tree
+    git clone https://github.com/galaxy-a05s/android_device_samsung_a05s.git -b common device/samsung/a05s
+## Clone a05s common tree
+    git clone https://github.com/galaxy-a05s/android_device_samsung_a05s-common.git -b android-14 device/samsung/a05s-common
 ## Prepare
     export ALLOW_MISSING_DEPENDENCIES=true; . build/envsetup.sh; lunch twrp_a05s-eng
 ## Repopick Patches
