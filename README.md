@@ -8,7 +8,7 @@
 ## Sync
     repo sync
 ## Clone galaxy A057F tree
-    git clone https://github.com/galaxy-a05s/android_device_samsung_a05s.git -b common device/samsung/a05s
+    git clone https://github.com/galaxy-a05s/android_device_samsung_a05s.git -b common-crypton device/samsung/a05s
 ## Clone a05s common tree
     git clone https://github.com/galaxy-a05s/android_device_samsung_a05s-common.git -b android-14 device/samsung/a05s-common
 ## Prepare
