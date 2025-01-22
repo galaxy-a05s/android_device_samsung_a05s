@@ -1,8 +1,0 @@
-on init
-    start hidl_memory
-
-service hidl_memory /system/bin/hw/android.hidl.allocator@1.0-service
-    class hal
-    user root
-    group root
-    seclabel u:r:recovery:s0
