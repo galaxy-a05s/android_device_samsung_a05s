@@ -259,6 +259,8 @@ alias of:N*T*Cqcom,kona-cdsp-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,kona-cdsp-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,kona-slpi-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,kona-slpi-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,kona-npu-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,kona-npu-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,crow-wpss-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,crow-wpss-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,crow-adsp-pas qcom_q6v5_pas
@@ -283,8 +285,16 @@ alias of:N*T*Cqcom,qcs605-adsp-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,qcs605-adsp-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,qcs605-cdsp-pas qcom_q6v5_pas
 alias of:N*T*Cqcom,qcs605-cdsp-pasC* qcom_q6v5_pas
-alias of:N*T*Cqcom,qcs605-modem-pas qcom_q6v5_pas
-alias of:N*T*Cqcom,qcs605-modem-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,bengal-adsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,bengal-adsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,bengal-cdsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,bengal-cdsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,bengal-modem-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,bengal-modem-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,scuba-adsp-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,scuba-adsp-pasC* qcom_q6v5_pas
+alias of:N*T*Cqcom,scuba-modem-pas qcom_q6v5_pas
+alias of:N*T*Cqcom,scuba-modem-pasC* qcom_q6v5_pas
 alias of:N*T*Cqcom,pshold msm_poweroff
 alias of:N*T*Cqcom,psholdC* msm_poweroff
 alias platform:spi_geni spi_msm_geni
@@ -314,6 +324,8 @@ alias of:N*T*Cqcom,mem-offlineC* mem_offline
 alias of:N*T*Csamsung,qcom-reboot_cmd sec_qc_rbcmd
 alias of:N*T*Csamsung,qcom-reboot_cmdC* sec_qc_rbcmd
 alias platform:fpsensor-drivers chipone_fp
+alias of:N*T*Cqcom,mpm-bengal qcom_mpm
+alias of:N*T*Cqcom,mpm-bengalC* qcom_mpm
 alias of:N*T*Cqcom,mpm-khaje qcom_mpm
 alias of:N*T*Cqcom,mpm-khajeC* qcom_mpm
 alias of:N*T*Cqcom,mpm-monaco qcom_mpm

@@ -7,7 +7,7 @@
 /lib/modules/soc_sleep_stats.ko: /lib/modules/smem.ko
 /lib/modules/fpc1022_tee.ko:
 /lib/modules/cpufreq_userspace.ko:
-/lib/modules/qcom-smb1398-charger.ko:
+/lib/modules/qcom-smb1398-charger.ko: /lib/modules/qcom-pmic-voter.ko
 /lib/modules/qpnp-power-on.ko:
 /lib/modules/phy-qcom-ufs-qmp-v4-lahaina.ko: /lib/modules/phy-qcom-ufs.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/smp2p_sleepstate.ko:
@@ -47,9 +47,9 @@
 /lib/modules/bam_dma.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/qfprom-sys.ko:
 /lib/modules/usb_bam.ko: /lib/modules/sps_drv.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/minidump.ko /lib/modules/smem.ko
-/lib/modules/upm6918_charger.ko: /lib/modules/sm5602_fg.ko /lib/modules/sp2130_drv.ko /lib/modules/afc_gpio.ko /lib/modules/qcom-pmic-voter.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko
+/lib/modules/upm6918_charger.ko: /lib/modules/sm5602_fg.ko /lib/modules/sp2130_drv.ko /lib/modules/afc_gpio.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko /lib/modules/qcom-pmic-voter.ko
 /lib/modules/leds-qti-flash.ko: /lib/modules/qti_battery_charger.ko /lib/modules/panel_event_notifier.ko /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/qmi_helpers.ko /lib/modules/minidump.ko /lib/modules/smem.ko
-/lib/modules/qcom-qpnp-qg.ko:
+/lib/modules/qcom-qpnp-qg.ko: /lib/modules/qcom-pmic-voter.ko
 /lib/modules/phy-qcom-ufs-qmp-v4-crow.ko: /lib/modules/phy-qcom-ufs.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/sec_reboot_cmd.ko:
 /lib/modules/hung_task_enh.ko:
@@ -65,7 +65,7 @@
 /lib/modules/qcom_logbuf_vh.ko: /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/sec_qc_logger.ko: /lib/modules/sec_debug_region.ko
 /lib/modules/msm_sysstats.ko:
-/lib/modules/sd76030.ko: /lib/modules/afc_gpio.ko /lib/modules/qcom-pmic-voter.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko
+/lib/modules/sd76030.ko: /lib/modules/afc_gpio.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko /lib/modules/qcom-pmic-voter.ko
 /lib/modules/stm_p_ost.ko: /lib/modules/stm_core.ko
 /lib/modules/qcom_q6v5_pas.ko: /lib/modules/qcom_ramdump.ko /lib/modules/qcom_pil_info.ko /lib/modules/qcom_q6v5.ko /lib/modules/mdt_loader.ko /lib/modules/qcom_sysmon.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/qmi_helpers.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/msm-poweroff.ko: /lib/modules/qpnp-power-on.ko /lib/modules/qcom-scm.ko /lib/modules/minidump.ko /lib/modules/smem.ko
@@ -80,11 +80,11 @@
 /lib/modules/altmode-glink.ko: /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/qmi_helpers.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/coresight-tmc.ko: /lib/modules/usb_f_qdss.ko /lib/modules/usb_bam.ko /lib/modules/sps_drv.ko /lib/modules/coresight-csr.ko /lib/modules/qcom_iommu_util.ko /lib/modules/ipa_fmwk.ko /lib/modules/dwc3-msm.ko /lib/modules/coresight.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko /lib/modules/clk-qcom.ko /lib/modules/gdsc-regulator.ko /lib/modules/proxy-consumer.ko /lib/modules/minidump.ko /lib/modules/smem.ko /lib/modules/debug-regulator.ko
 /lib/modules/rq_stats.ko:
-/lib/modules/qcom-smb1355-charger.ko:
+/lib/modules/qcom-smb1355-charger.ko: /lib/modules/qcom-pmic-voter.ko
 /lib/modules/sec_key_notifier.ko:
 /lib/modules/iommu-logger.ko:
 /lib/modules/msm_geni_serial.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/minidump.ko /lib/modules/smem.ko
-/lib/modules/nopmi-chg.ko: /lib/modules/sd77428.ko /lib/modules/pd_policy_manager.ko /lib/modules/sm5602_fg.ko /lib/modules/qcom-pmic-voter.ko /lib/modules/sec_class.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko
+/lib/modules/nopmi-chg.ko: /lib/modules/sd77428.ko /lib/modules/pd_policy_manager.ko /lib/modules/sm5602_fg.ko /lib/modules/sec_class.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko /lib/modules/qcom-pmic-voter.ko
 /lib/modules/phy-msm-ssusb-qmp.ko:
 /lib/modules/mem-offline.ko: /lib/modules/rpm-smd.ko /lib/modules/qcom-mpm.ko
 /lib/modules/qnoc-qos-rpm.ko:
@@ -138,7 +138,7 @@
 /lib/modules/sec_arm64_debug.ko:
 /lib/modules/heap_mem_ext_v01.ko: /lib/modules/qmi_helpers.ko
 /lib/modules/qcom_sysmon.ko: /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/qmi_helpers.ko /lib/modules/minidump.ko /lib/modules/smem.ko
-/lib/modules/sc89890h.ko: /lib/modules/upm6720_charger.ko /lib/modules/sd77428.ko /lib/modules/afc_gpio.ko /lib/modules/qcom-pmic-voter.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko
+/lib/modules/sc89890h.ko: /lib/modules/upm6720_charger.ko /lib/modules/sd77428.ko /lib/modules/afc_gpio.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko /lib/modules/qcom-pmic-voter.ko
 /lib/modules/ucsi_glink.ko: /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/qmi_helpers.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/stm_core.ko:
 /lib/modules/bwmon.ko: /lib/modules/qcom-dcvs.ko
@@ -150,14 +150,14 @@
 /lib/modules/sec_upload_cause.ko:
 /lib/modules/boot_stats.ko:
 /lib/modules/coresight-tpdm.ko: /lib/modules/coresight.ko /lib/modules/qcom-scm.ko
-/lib/modules/pd_policy_manager.ko: /lib/modules/qcom-pmic-voter.ko /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko
+/lib/modules/pd_policy_manager.ko: /lib/modules/tcpc_class.ko /lib/modules/pd_dbg_info.ko /lib/modules/qcom-pmic-voter.ko
 /lib/modules/coresight-tpda.ko: /lib/modules/coresight.ko
 /lib/modules/fsa4480-i2c.ko: /lib/modules/ucsi_glink.ko /lib/modules/qti-regmap-debugfs.ko /lib/modules/pmic_glink.ko /lib/modules/pdr_interface.ko /lib/modules/rproc_qcom_common.ko /lib/modules/qcom_smd.ko /lib/modules/qcom_glink_smem.ko /lib/modules/qcom_glink.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/qmi_helpers.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/usb_notifier_qcom.ko: /lib/modules/usb_notify_layer.ko
 /lib/modules/usb_f_ss_mon_gadget.ko:
 /lib/modules/ipa_fmwk.ko:
 /lib/modules/usb_f_conn_gadget.ko:
-/lib/modules/i2c-msm-geni.ko: /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/minidump.ko /lib/modules/smem.ko
+/lib/modules/i2c-msm-geni.ko: /lib/modules/msm_gpi.ko /lib/modules/qcom_ipc_logging.ko /lib/modules/sec_debug.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/memory_dump_v2.ko: /lib/modules/sec_debug.ko /lib/modules/qcom-scm.ko /lib/modules/minidump.ko /lib/modules/smem.ko
 /lib/modules/sg.ko:
 /lib/modules/qcom_iommu_util.ko: /lib/modules/secure_buffer.ko /lib/modules/qcom-scm.ko
