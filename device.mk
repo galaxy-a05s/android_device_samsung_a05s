@@ -15,4 +15,4 @@
 #
 
 # Inherit from common tree
-$(call inherit-product, device/samsung/a05s-common/twrp_a05s-common.mk)
+$(call inherit-product, device/samsung/bengal-common/twrp_bengal-common.mk)
