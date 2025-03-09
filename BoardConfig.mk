@@ -18,7 +18,7 @@ TW_LOAD_VENDOR_MODULES := true
 TW_LOAD_VENDOR_MODULES := $(shell echo \"$(shell ls $(DEVICE_PATH)/recovery/root/lib/modules)\")
 
 # Inherit from common tree
-include device/samsung/a05s-common/BoardConfigCommon.mk
+include device/samsung/bengal-common/BoardConfigCommon.mk
 
 # Version
 TW_DEVICE_VERSION := MrFluffyOven_A057F
